@@ -1,0 +1,62 @@
+{
+  "kind": "singleType",
+  "collectionName": "perfils",
+  "info": {
+    "name": "perfil",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "intro": {
+      "type": "component",
+      "repeatable": false,
+      "component": "informacion.basico"
+    },
+    "foto_perfil": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "flaex": {
+      "type": "component",
+      "repeatable": false,
+      "component": "informacion.basico"
+    },
+    "habilidades": {
+      "type": "component",
+      "repeatable": true,
+      "component": "informacion.icono-descripcion"
+    },
+    "formacion": {
+      "type": "dynamiczone",
+      "components": [
+        "informacion.basico",
+        "informacion.tabla"
+      ]
+    },
+    "experiencia": {
+      "type": "dynamiczone",
+      "components": [
+        "informacion.basico",
+        "informacion.tabla"
+      ]
+    },
+    "meta": {
+      "type": "component",
+      "repeatable": true,
+      "component": "informacion.meta"
+    }
+  }
+}

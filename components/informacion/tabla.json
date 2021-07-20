@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_informacion_tablas",
+  "info": {
+    "name": "tabla",
+    "icon": "table"
+  },
+  "options": {},
+  "attributes": {
+    "tabla": {
+      "type": "richtext"
+    }
+  }
+}

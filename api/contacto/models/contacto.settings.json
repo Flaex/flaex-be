@@ -1,0 +1,33 @@
+{
+  "kind": "singleType",
+  "collectionName": "contactos",
+  "info": {
+    "name": "contacto",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "ciudad": {
+      "type": "string"
+    },
+    "descripcion": {
+      "type": "text"
+    },
+    "latitud": {
+      "type": "string"
+    },
+    "longitud": {
+      "type": "string"
+    },
+    "meta": {
+      "type": "component",
+      "repeatable": true,
+      "component": "informacion.meta"
+    }
+  }
+}
