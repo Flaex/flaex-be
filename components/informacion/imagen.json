@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_informacion_imagens",
+  "info": {
+    "name": "imagen",
+    "icon": "image"
+  },
+  "options": {},
+  "attributes": {
+    "imagen": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "meta": {
+      "type": "component",
+      "repeatable": true,
+      "component": "informacion.meta"
+    }
+  }
+}

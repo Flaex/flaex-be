@@ -17,18 +17,6 @@
       "repeatable": false,
       "component": "informacion.basico"
     },
-    "foto_perfil": {
-      "model": "file",
-      "via": "related",
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos"
-      ],
-      "plugin": "upload",
-      "required": false,
-      "pluginOptions": {}
-    },
     "flaex": {
       "type": "component",
       "repeatable": false,
@@ -43,6 +31,11 @@
       "type": "component",
       "repeatable": true,
       "component": "informacion.meta"
+    },
+    "foto_perfil": {
+      "type": "component",
+      "repeatable": false,
+      "component": "informacion.imagen"
     }
   }
 }

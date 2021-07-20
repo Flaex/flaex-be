@@ -1,0 +1,34 @@
+{
+  "kind": "collectionType",
+  "collectionName": "articulos",
+  "info": {
+    "name": "articulo"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "titulo": {
+      "type": "string"
+    },
+    "descripcion": {
+      "type": "richtext"
+    },
+    "imagen": {
+      "type": "component",
+      "repeatable": false,
+      "component": "informacion.imagen"
+    },
+    "tag": {
+      "type": "string"
+    },
+    "meta": {
+      "type": "component",
+      "repeatable": true,
+      "component": "informacion.meta"
+    }
+  }
+}
