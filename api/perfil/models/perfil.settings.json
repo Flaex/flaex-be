@@ -50,6 +50,10 @@
       "type": "component",
       "repeatable": false,
       "component": "informacion.imagen"
+    },
+    "users_permissions_user": {
+      "plugin": "users-permissions",
+      "model": "user"
     }
   }
 }
