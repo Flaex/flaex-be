@@ -31,11 +31,6 @@
       "type": "component",
       "repeatable": true,
       "component": "informacion.meta"
-    },
-    "foto_perfil": {
-      "type": "component",
-      "repeatable": false,
-      "component": "informacion.imagen"
     }
   }
 }

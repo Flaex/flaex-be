@@ -21,16 +21,6 @@
     "ciudad": {
       "type": "string"
     },
-    "miniatura": {
-      "type": "component",
-      "repeatable": false,
-      "component": "informacion.imagen"
-    },
-    "imagenes": {
-      "type": "component",
-      "repeatable": true,
-      "component": "informacion.imagen"
-    },
     "categoria": {
       "type": "enumeration",
       "enum": [
@@ -52,6 +42,30 @@
     },
     "Ano": {
       "type": "integer"
+    },
+    "miniatura": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "imagenes": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
     }
   }
 }

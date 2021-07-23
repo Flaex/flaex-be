@@ -46,11 +46,6 @@
       "repeatable": true,
       "component": "informacion.meta"
     },
-    "foto_perfil": {
-      "type": "component",
-      "repeatable": false,
-      "component": "informacion.imagen"
-    },
     "users_permissions_user": {
       "plugin": "users-permissions",
       "model": "user"
