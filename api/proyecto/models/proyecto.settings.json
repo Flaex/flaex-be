@@ -21,15 +21,6 @@
     "ciudad": {
       "type": "string"
     },
-    "categoria": {
-      "type": "enumeration",
-      "enum": [
-        "logotipos",
-        "impresos",
-        "web",
-        "tipografia"
-      ]
-    },
     "meta": {
       "type": "component",
       "repeatable": true,
@@ -66,6 +57,10 @@
       "plugin": "upload",
       "required": false,
       "pluginOptions": {}
+    },
+    "categoria": {
+      "via": "proyectos",
+      "model": "categoria"
     }
   }
 }
