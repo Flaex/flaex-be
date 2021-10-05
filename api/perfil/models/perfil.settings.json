@@ -22,11 +22,6 @@
       "repeatable": false,
       "component": "informacion.basico"
     },
-    "habilidades": {
-      "type": "component",
-      "repeatable": true,
-      "component": "informacion.icono-descripcion"
-    },
     "formacion": {
       "type": "dynamiczone",
       "components": [
@@ -49,6 +44,16 @@
     "users_permissions_user": {
       "plugin": "users-permissions",
       "model": "user"
+    },
+    "portafolio": {
+      "type": "component",
+      "repeatable": false,
+      "component": "informacion.basico"
+    },
+    "habilidades": {
+      "type": "component",
+      "repeatable": true,
+      "component": "informacion.icono-descripcion"
     }
   }
 }

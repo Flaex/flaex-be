@@ -13,10 +13,10 @@
     "titulo": {
       "type": "string"
     },
-    "descripcion": {
-      "type": "richtext"
-    },
     "prefix": {
+      "type": "string"
+    },
+    "descripcion": {
       "type": "string"
     }
   }
