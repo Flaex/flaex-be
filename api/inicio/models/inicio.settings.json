@@ -32,8 +32,8 @@
       "repeatable": true,
       "component": "informacion.meta"
     },
-    "imagenes": {
-      "collection": "file",
+    "imagen": {
+      "model": "file",
       "via": "related",
       "allowedTypes": [
         "images",

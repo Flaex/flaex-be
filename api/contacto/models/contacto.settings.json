@@ -12,11 +12,25 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "ciudad": {
-      "type": "string"
+    "meta": {
+      "type": "component",
+      "repeatable": true,
+      "component": "informacion.meta"
     },
-    "descripcion": {
-      "type": "text"
+    "ubicacion": {
+      "type": "component",
+      "repeatable": false,
+      "component": "informacion.basico"
+    },
+    "formulario": {
+      "type": "component",
+      "repeatable": false,
+      "component": "informacion.basico"
+    },
+    "redes": {
+      "type": "component",
+      "repeatable": false,
+      "component": "informacion.basico"
     },
     "latitud": {
       "type": "string"
@@ -24,10 +38,10 @@
     "longitud": {
       "type": "string"
     },
-    "meta": {
+    "plataformas": {
       "type": "component",
       "repeatable": true,
-      "component": "informacion.meta"
+      "component": "informacion.icono-descripcion"
     }
   }
 }
