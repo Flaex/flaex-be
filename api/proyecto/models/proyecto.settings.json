@@ -61,6 +61,9 @@
     "categoria": {
       "via": "proyectos",
       "model": "categoria"
+    },
+    "slug": {
+      "type": "string"
     }
   }
 }

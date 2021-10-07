@@ -45,6 +45,9 @@
     },
     "fecha": {
       "type": "date"
+    },
+    "slug": {
+      "type": "string"
     }
   }
 }
