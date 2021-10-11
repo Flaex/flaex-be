@@ -22,20 +22,6 @@
       "repeatable": false,
       "component": "informacion.basico"
     },
-    "formacion": {
-      "type": "dynamiczone",
-      "components": [
-        "informacion.basico",
-        "informacion.tabla"
-      ]
-    },
-    "experiencia": {
-      "type": "dynamiczone",
-      "components": [
-        "informacion.basico",
-        "informacion.tabla"
-      ]
-    },
     "meta": {
       "type": "component",
       "repeatable": true,
@@ -54,6 +40,16 @@
       "type": "component",
       "repeatable": true,
       "component": "informacion.icono-descripcion"
+    },
+    "formacion": {
+      "type": "component",
+      "repeatable": false,
+      "component": "informacion.curriculo"
+    },
+    "experiencia": {
+      "type": "component",
+      "repeatable": false,
+      "component": "informacion.curriculo"
     }
   }
 }
