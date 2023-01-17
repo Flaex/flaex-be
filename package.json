@@ -12,8 +12,11 @@
   },
   "devDependencies": {},
   "dependencies": {
+    "knex": "0.21.19",
+    "pg": "8.7.3",
     "strapi": "3.6.7",
     "strapi-admin": "3.6.7",
+    "strapi-connector-bookshelf": "3.6.9",
     "strapi-connector-mongoose": "^3.6.7",
     "strapi-plugin-content-manager": "3.6.7",
     "strapi-plugin-content-type-builder": "3.6.7",
