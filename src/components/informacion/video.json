@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_informacion_videos",
+  "info": {
+    "displayName": "video"
+  },
+  "options": {},
+  "attributes": {
+    "serie": {
+      "type": "string"
+    },
+    "expresion": {
+      "type": "string"
+    },
+    "link": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "nombre": {
+      "type": "string"
+    }
+  }
+}

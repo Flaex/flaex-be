@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_informacion_iconos",
+  "info": {
+    "displayName": "icono"
+  },
+  "options": {},
+  "attributes": {
+    "icono": {
+      "type": "string"
+    },
+    "titulo": {
+      "type": "string"
+    },
+    "prefix": {
+      "type": "string"
+    },
+    "descripcion": {
+      "type": "string"
+    }
+  }
+}
