@@ -1,17 +1,26 @@
 {
-  "collectionName": "components_informacion_videos",
+  "kind": "collectionType",
+  "collectionName": "caras",
   "info": {
-    "displayName": "video"
+    "singularName": "cara",
+    "pluralName": "caras",
+    "displayName": "caras"
   },
-  "options": {},
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
   "attributes": {
+    "nombre": {
+      "type": "string"
+    },
     "serie": {
       "type": "string"
     },
     "expresion": {
       "type": "string"
     },
-    "link": {
+    "media": {
       "allowedTypes": [
         "images",
         "files",
@@ -20,9 +29,6 @@
       ],
       "type": "media",
       "multiple": false
-    },
-    "nombre": {
-      "type": "string"
     }
   }
 }
