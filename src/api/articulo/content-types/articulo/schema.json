@@ -4,7 +4,8 @@
   "info": {
     "singularName": "articulo",
     "pluralName": "articulos",
-    "displayName": "articulos"
+    "displayName": "articulos",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -34,14 +35,19 @@
       "inversedBy": "articulos"
     },
     "imagen": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
+    },
+    "guia": {
+      "type": "boolean",
+      "default": false
     }
   }
 }
